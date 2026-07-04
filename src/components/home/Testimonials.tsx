@@ -6,7 +6,7 @@ import { images } from "@/utils/images";
 
 export function Testimonials() {
   return (
-    <section className="bg-cream py-20 sm:py-24">
+    <section className="bg-white py-20 sm:py-24">
       <div className="container-x">
         <SectionHeading
           eyebrow="Clients Love Us"
@@ -18,7 +18,7 @@ export function Testimonials() {
           {testimonials.map((t) => (
             <figure
               key={t.name}
-              className="flex flex-col rounded-2xl bg-white p-7 shadow-sm shadow-navy/5"
+              className="flex flex-col rounded-2xl border border-slate-100 bg-white p-7"
             >
               <Quote className="h-8 w-8 text-brand/30" strokeWidth={1.5} />
               <blockquote className="mt-4 flex-1 text-sm leading-relaxed text-slate-600">

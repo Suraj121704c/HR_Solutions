@@ -20,7 +20,7 @@ export function PageHero({ eyebrow, title, description }: PageHeroProps) {
           <ChevronRight className="h-4 w-4" />
           <span className="text-white">{eyebrow}</span>
         </nav>
-        <h1 className="mt-4 max-w-2xl font-display text-4xl font-extrabold leading-tight sm:text-5xl">
+        <h1 className="mt-4 max-w-2xl font-heading text-4xl font-bold leading-tight sm:text-5xl">
           {title}
         </h1>
         <p className="mt-4 max-w-xl text-base leading-relaxed text-slate-300">

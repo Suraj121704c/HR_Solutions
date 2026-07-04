@@ -5,10 +5,6 @@ import {
   Wallet,
   GraduationCap,
   ShieldCheck,
-  Laptop,
-  Factory,
-  ShoppingBag,
-  HeartPulse,
   Search,
   PencilRuler,
   Settings,
@@ -82,29 +78,6 @@ export const services: Feature[] = [
     title: "HR Compliance",
     description:
       "Ensure regulatory compliance and mitigate risk with our expert HR compliance services.",
-  },
-];
-
-export const industries: Feature[] = [
-  {
-    icon: Laptop,
-    title: "IT & Technology",
-    description: "Scaling engineering and product teams for fast-moving tech companies.",
-  },
-  {
-    icon: Factory,
-    title: "Manufacturing",
-    description: "Workforce planning and compliance for complex production environments.",
-  },
-  {
-    icon: ShoppingBag,
-    title: "Retail & E-Commerce",
-    description: "High-volume hiring and retention strategies for customer-facing teams.",
-  },
-  {
-    icon: HeartPulse,
-    title: "Health Care",
-    description: "Credentialed talent and people programs for care-driven organisations.",
   },
 ];
 

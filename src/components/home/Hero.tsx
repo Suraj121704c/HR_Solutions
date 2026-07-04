@@ -19,7 +19,7 @@ export function Hero() {
       <div className="container-x relative grid items-center gap-12 py-16 lg:grid-cols-2 lg:py-24">
         {/* Copy */}
         <div>
-          <h1 className="relative font-display text-4xl font-bold leading-[1.08] tracking-tight text-navy sm:text-5xl lg:text-6xl">
+          <h1 className="relative font-heading text-4xl font-bold leading-[1.08] tracking-tight text-navy sm:text-5xl lg:text-6xl">
             {/* Left grey strip — right edge touches the heading, bleeds off the left edge (Figma) */}
             <span
               aria-hidden

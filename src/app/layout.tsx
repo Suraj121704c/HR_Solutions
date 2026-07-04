@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
-import { Poppins, Inter } from "next/font/google";
+import { Quicksand, Poppins, Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
+// Quicksand — used only for the large section headings.
+const quicksand = Quicksand({
+  variable: "--font-quicksand",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
+// Poppins — general display font (buttons, labels, card titles, numbers).
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
@@ -31,7 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${poppins.variable} ${inter.variable} h-full`}
+      className={`${quicksand.variable} ${poppins.variable} ${inter.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-white text-ink">
         <Navbar />

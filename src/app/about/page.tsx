@@ -47,7 +47,7 @@ export default function AboutPage() {
             <span className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
               Who We Are
             </span>
-            <h2 className="mt-3 font-display text-3xl font-bold leading-tight text-navy sm:text-4xl">
+            <h2 className="mt-3 font-heading text-3xl font-bold leading-tight text-navy sm:text-4xl">
               A Partner Invested in Your Growth
             </h2>
             <p className="mt-4 text-base leading-relaxed text-slate-500">

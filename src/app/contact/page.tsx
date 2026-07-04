@@ -35,7 +35,7 @@ export default function ContactPage() {
             <span className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
               Get In Touch
             </span>
-            <h2 className="mt-3 font-display text-3xl font-bold leading-tight text-navy sm:text-4xl">
+            <h2 className="mt-3 font-heading text-3xl font-bold leading-tight text-navy sm:text-4xl">
               We&apos;d Love to Hear From You
             </h2>
             <p className="mt-4 text-base leading-relaxed text-slate-500">
