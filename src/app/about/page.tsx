@@ -77,24 +77,13 @@ const values: Feature[] = [
 export default function AboutPage() {
   return (
     <>
-      {/* Hero — same treatment as home (grey strips + leaf image) */}
       <section className="relative overflow-hidden bg-white">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute right-0 top-[12rem] hidden h-11 -translate-y-1/2 bg-[#d9d9d9] lg:block"
-          style={{ width: RIGHT_STRIP_WIDTH }}
-        />
-
         <div className="container-x relative grid items-center gap-12 py-16 lg:grid-cols-2 lg:py-24">
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
               About Us
             </span>
             <h1 className="relative mt-3 font-heading text-4xl font-bold leading-[1.08] tracking-tight text-navy sm:text-5xl">
-              <span
-                aria-hidden
-                className="pointer-events-none absolute right-full top-1/2 hidden h-11 w-screen -translate-y-1/2 bg-[#d9d9d9] lg:block"
-              />
               We are passionate about people &amp; their{" "}
               <span className="text-brand">potential.</span>
             </h1>

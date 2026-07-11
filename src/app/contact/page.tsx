@@ -43,7 +43,8 @@ const support: Support[] = [
   {
     icon: HelpCircle,
     title: "General Enquiries",
-    description: "Questions about our services or how we can help your organisation.",
+    description:
+      "Questions about our services or how we can help your organisation.",
   },
   {
     icon: Briefcase,
@@ -53,7 +54,8 @@ const support: Support[] = [
   {
     icon: LifeBuoy,
     title: "Client Support",
-    description: "Existing clients? Get in touch with our support team for assistance.",
+    description:
+      "Existing clients? Get in touch with our support team for assistance.",
   },
   {
     icon: Users,
@@ -65,25 +67,13 @@ const support: Support[] = [
 export default function ContactPage() {
   return (
     <>
-      {/* Hero — grey strips + contact info on the left, message form on the right */}
       <section className="relative overflow-hidden bg-white">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute right-0 top-[12rem] hidden h-11 -translate-y-1/2 bg-[#d9d9d9] lg:block"
-          style={{ width: RIGHT_STRIP_WIDTH }}
-        />
-
         <div className="container-x relative grid gap-12 py-16 lg:grid-cols-2 lg:py-24">
-          {/* Left */}
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
               Contact Us
             </span>
             <h1 className="relative mt-3 font-heading text-4xl font-bold leading-[1.08] tracking-tight text-navy sm:text-5xl">
-              <span
-                aria-hidden
-                className="pointer-events-none absolute right-full top-1/2 hidden h-11 w-screen -translate-y-1/2 bg-[#d9d9d9] lg:block"
-              />
               Let&apos;s Build Better Workplaces Together
             </h1>
             <p className="mt-5 max-w-md text-base leading-relaxed text-slate-500">
@@ -114,14 +104,22 @@ export default function ContactPage() {
               Send Us a Message
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-slate-500">
-              Fill out the contact form below, and one of our service specialists
-              will get back to you within 24 hours.
+              Fill out the contact form below, and one of our service
+              specialists will get back to you within 24 hours.
             </p>
 
             <form className="mt-6 space-y-4">
               <Field label="Your Name" placeholder="Jane Doe" />
-              <Field label="Phone Number" type="tel" placeholder="+971 5X XXX XXXX" />
-              <Field label="Email Address" type="email" placeholder="jane@company.com" />
+              <Field
+                label="Phone Number"
+                type="tel"
+                placeholder="+971 5X XXX XXXX"
+              />
+              <Field
+                label="Email Address"
+                type="email"
+                placeholder="jane@company.com"
+              />
               <Field label="Company Name" placeholder="Acme Inc." />
               <div>
                 <label className="mb-1.5 block text-sm font-medium text-navy">
@@ -192,7 +190,9 @@ function Field({
 }) {
   return (
     <div>
-      <label className="mb-1.5 block text-sm font-medium text-navy">{label}</label>
+      <label className="mb-1.5 block text-sm font-medium text-navy">
+        {label}
+      </label>
       <input
         type={type}
         placeholder={placeholder}
